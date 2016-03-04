@@ -1,15 +1,16 @@
 package ca.dgmyers;
 
-import ca.dgmyers.DoStuff;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 /**
  * Created by dgmyers on 2/28/2016.
+ *
+ * Add a comment for Git
  */
 public class TestMe {
 
-    private DoStuff stuff;
+    private ca.dgmyers.DoStuff stuff;
 
     @BeforeClass
     public void setup(){
